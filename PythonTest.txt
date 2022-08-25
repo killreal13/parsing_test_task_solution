@@ -1,0 +1,1893 @@
+# ******* Тестовое задание на Junior Python Developer ********
+# 
+# 
+# В этом файле находятся строки с переводом английских слов на русские в формате
+# Astur-Leonese ; Asturian ; Asturian-Leonese ; Astur	астурийский ; астурлеонский
+#
+# Это значит, что каждое из английских слов (Astur-Leonese ; Asturian ; Asturian-Leonese ; Astur) может переводиться как любое русское (астурийский ; астурлеонский)
+#
+# Также встречаются простые варианты где в строке 1 английское и русское слово
+# Abidjan	Абиджан
+# 
+# Английские слова отделены от русских переводов символом табуляции
+# 
+# Надо распарсить этот файл и на базе него сделать 2 файла - English.txt и Russian txt, где каждой строке на английском будет соответствовать строка перевода на русском в другом файле во всех возможных вариантах.
+# 
+# Пример текста, который должен получиться в файлах, после работы вашего кода:
+# 
+# English.txt				Russian.txt		
+#	
+# Astur-Leonese				астурийский
+# Astur-Leonese				астурлеонский
+# Asturian				    астурийский
+# Asturian				    астурлеонский
+# Asturian-Leonese			астурийский
+# Asturian-Leonese			астурлеонский
+# ....						....
+#
+# Код который вы напишите присылайте на alexeir@lingvanex.com
+#
+#
+
+
+
+9 ; nine	девять ; девять
+AOX value	показатель абсорбции органических галогенов
+ASEAN ; Association of Southeast Asian Nations	АСЕАН
+Abidjan	Абиджан
+Abkhaz ; Abkhazian ; Abkhazian	абхазский
+Abkhazia	Абхазия
+Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln	Авраам Линкольн
+Abuja	Абуджа
+Adelaide	Аделаида
+Aegean Sea	Эгейское море
+Afghanistan ; Transitional Islamic State of Afghanistan	Афганистан
+Africa	Африка
+Afrikaans	африкаанс
+Albania ; Republic of Albania	Албания
+Algeria ; People's Democratic Republic of Algeria	Алжир ; Алжжирская Народная Демократическая Республика ; Алжирская Народная Демократическая Республика
+American Samoa	Американское Самоа
+American football ; American football	американский футбол
+Americas	Америка
+Ames test	тест Эймса
+Amsterdam	Амстердам
+Andorra ; Principality of Andorra	Андорра
+Angola ; Republic of Angola	Ангола
+Anguilla	Ангилья
+Antarctic Ocean ; Southern Ocean	Антарктический (Южный) океан ; Антарктический океан ; Южный океан
+Antarctic ecosystem	экосистема Антарктики
+Antarctica	Антарктика
+Antigua and Barbuda	Антигуа и Барбуда
+April	апрель
+Apus	Райская Птица
+Aquarius	Водолей
+Aquila	Орёл
+Arabic ; Standard Arabic	арабский
+Aragonese ; Aragonese	арагонский
+Arctic Ocean	Северный Ледовитый океан
+Arctic ecosystem	экосистема Арктики
+Argentina ; Argentine Republic	Аргентина
+Aries	Овен
+Arizona	Аризона
+Armenia	Армения
+Armenian	армянский
+Articulata	членистые
+Aruba	Аруба
+Asia	Азия
+Assamese ; Assamese	ассамский
+Astur-Leonese ; Asturian ; Asturian-Leonese ; Astur	астурийский ; астурлеонский
+Athens	Афины
+Atlantic Ocean	Атлантический океан
+August	август
+Australia ; Commonwealth of Australia	Австралия
+Austria ; Republic of Austria	Австрия
+Austria-Hungary ; Austro-Hungarian Empire	Австро-Венгрия
+Azerbaijan ; Republic of Azerbaijan	Азербайджан
+Azerbaijani ; Azeri ; Azerbaijani Cluster	азербайджанский
+BBS ; bulletin board system	электронная доска объявлений
+Bahamas ; Commonwealth of the Bahamas ; Bahama Islands	Багамы
+Bahrain	Бахрейн
+Balearic Islands	Балеарские острова
+Bangladesh ; People's Republic of Bangladesh	Бангладеш
+Barbados	Барбадос
+Basque ; Basque	баскский
+Bavaria	Бавария
+Beijing	Пекин
+Belarus ; Republic of Belarus	Беларусь ; Белоруссия
+Belarusan ; Belarusan ; Belarusian ; Belorussian ; Byelorussian	белорусский
+Belgium ; Kingdom of Belgium	Бельгия
+Belgrade	Белград
+Belize	Белиз
+Belmopan	Бельмопан
+Bengali ; Bengali	бенгальский
+Benin ; Benin ; Republic of Benin	Бенин
+Berlin	Берлин
+Bermuda	Бермуды
+Berne	Берн
+Bethlehem	Вифлеем
+Bhutan ; Kingdom of Bhutan	Бутан
+Bible	Библия
+Birmingham	Бирмингем
+Black Sea	Черное море
+Bokmål	букмол
+Bolivia ; Republic of Bolivia	Боливия
+Bonn	Бонн
+Borneo ; Kalimantan	Борне́о ; Калимантан
+Bosnia and Herzegovina ; Republic of Bosnia and Herzegovina	Босния и Герцеговина
+Bosnian ; Bosnian	боснийский
+Botswana ; Republic of Botswana	Ботсвана
+Bouvet Island	Буве
+Bratislava	Братислава
+Brazil	Бразилия
+Breton ; Breton	бретонский
+British Indian Ocean Territory ; BIOT	Британская территория в Индийском океане
+Brunei ; Negara Brunei Darussalam	Бруней
+Brussels	Брюссель
+Bucharest	Бухарест
+Bulgaria ; Republic of Bulgaria	Болгария
+Bulgarian	болгарин ; болгарка
+Bulgarian ; Bulgarian	болгарский
+Burkina Faso	Буркина-Фасо
+Burmese	бирманский
+Burundi ; Republic of Burundi	Бурунди
+CD-ROM	лазерный диск
+CD-ROM search service	поисковый сервис на лазерных дисках CD-ROM
+CFC ; chlorofluorocarbon	хлорфторуглероды
+CFC and halons prohibition	запрет на хлорфторуглероды и галон
+Cairo	Каир
+California	Калифорния
+Cambodia ; Kingdom of Cambodia	Камбоджа
+Cameroon ; Republic of Cameroon	Камерун
+Canada	Канада
+Cancer	Рак
+Canis Major	Большой Пёс
+Cape Verde ; Republic of Cape Verde	Кабо-Верде
+Capricorn	Козерог
+Caribbean Area ; Caribbean	Карибский регион
+Caribbean Sea	Карибское море
+Caspian Sea	Каспийское море
+Cassiopeia	Кассиопея
+Castilian ; Spanish ; Spanish	испанский ; испанский язык
+Catalan ; Catalan	каталонский
+Cayman Islands	Каймановы острова
+Central Africa	Центральная Африка
+Central African Republic	Центрально-африканская Республика
+Central America	Центральная Америка
+Central Asia	Центральная Азия
+Chad ; Republic of Chad	Чад
+Chechen ; Chechen	чеченский
+Chihuahua	Чиуауа
+Chihuahua ; chihuahua	чихуахуа
+Chile ; Republic of Chile	Чили
+Chinese	китайский
+Christmas	Рождество
+Christmas Island	Остров Рождества
+Christmas tree	новогодние ёлки
+Chuvash ; Chuvash ; Chuwash ; Chovash ; Chavash ; Chttash	чувашский язык ; чувашский
+Cologne	Кёльн
+Colombia ; Republic of Colombia	Колумбия
+Community act	закон ЕС
+Community budget	бюджет Сообщества
+Community finance	финансы ЕС
+Community law	законы Сообщества
+Community legal system	правовая система ЕС
+Community ruling	решение Сообщества
+Comoros ; Union of the Comoros	Коморские острова
+Cook Islands	Кука острова
+Copenhagen	Копенгаген
+Corfu	Корфу
+Cornish	корнуэльский
+Corsican ; Corsican	корсиканский
+Costa Rica ; Republic of Costa Rica	Коста-Рика
+Court of Justice of the European Communities	Суд Европейского Союза
+Croatia ; Republic of Croatia	Хорватия
+Croatian ; Croation	хорватский
+Cuba ; Republic of Cuba	Куба
+Cyprus ; Republic of Cyprus	Кипр
+Czech ; Czech	чешский
+Czech Republic ; Czechia	Чехия
+DDT ; dichloro-diphenyl-trichloroethane	ДДТ
+DNA ; deoxyribonucleic acid	ДНК ; дезоксирибонуклеиновая кислота
+Dagestan	Дагестан
+Dakar	Дакар
+Danish	датский
+December	декабрь
+Definition ; definition	определение
+Delaware	Делавэр
+Democratic Republic of the Congo ; Congo-Kinshasa	Демократическая Республика Конго
+Denmark ; Kingdom of Denmark	Дания
+Djibouti ; Republic of Djibouti	Джибути
+Dominica ; Commonwealth of Dominica	Доминика
+Dominican Republic	Доминиканская Республика
+Dublin	Дублин
+Dutch	нидерландский
+EC Council of Ministers	Совет Министров ЕС (Совет Европейского Союза)
+EC Treaty	"Римский Договор" ; Римский Договор
+EC directive	директива ЕС
+EC directive on biocides	директива ЕС по биоцидам
+EC directive on waste disposal	директива ЕС по утилизации отходов
+EC directive on water protection	директива ЕС по защите вод
+EC ecolabel	экологическая маркировка в ЕС
+EC policy	политика ЕС
+EC regulation	постановление, нормативный документ ЕС
+EC regulation on eco-management and audit	постановление ЕС об экоменеджменте и аудите
+EC regulation on existing chemicals	постановление ЕС по известным химикатам
+EIA (local)	экологическая экспертиза (местн.)
+EIA ; environmental impact assessment	оценка воздействия на окружающую среду, экологическая экспертиза
+EIA directive	директива ЕС по экологической экспертизе
+EIA law	законы, регулирующие экологическую экспертизу
+EU ; European Union	Европейский Союз
+EU Council	Совет ЕС
+Earth-Sun relationship	взаимосвязь Земли и Солнца
+East Africa	Восточная Африка
+East Timor ; Democratic Republic of Timor-Leste	Восточный Тимор
+East-West relations	взаимоотношения "Восток-Запад"
+East-West trade	торговля между Востоком и Западом
+Easter	Пасха
+Eastern Asia ; East Asia	Восточная Азия
+Eastern Europe	Восточная Европа
+Ecuador ; Republic of Ecuador	Эквадор
+Egypt ; Arab Republic of Egypt	Египет
+El Salvador ; Republic of El Salvador	Сальвадор
+England	Англия
+English	английский
+English garden	английский сад
+Epiphany	Крещение Господне
+Equatorial Guinea ; Republic of Equatorial Guinea	Экваториальная Гвинея
+Erevan ; Yerevan	Ереван ; Эривань
+Eritrea	Эритрия
+Esperanto ; Esperanto	эсперанто
+Estonia ; Republic of Estonia	Эстония
+Estonian	эстонский ; Эстонский
+Ethiopia ; Federal Democratic Republic of Ethiopia	Эфиопия
+Euratom	Евратом
+Europe	Европа
+European Commission	Европейская Комиссия
+European Communities	Европейские Сообщества
+European Court of Justice	Европейский Суд
+European Environment Agency	Европейское агентство по охране окружающей среды
+European Environmental Council	Европейский Совет по охране окружающей среды
+European Monetary Fund	Европейский валютный фонд
+European Monetary System ; EMS	Европейская валютная система
+European Parliament	Европейский Парламент
+European nature reserve	европейский природный заповедник
+European standard	европейский стандарт
+Falkland Islands	Фолклендские острова
+Faroe Islands	Фарерские острова
+Faroese ; Faeroese	фарерский
+February	февраль
+Fiji ; Republic of the Fiji Islands	Фиджи
+Finland ; Republic of Finland	Финляндия
+Finnish	финский
+Flanders ; Flemish region	Фландрия
+Flemish	фламандский
+Flevoland	Флеволанд
+France	Франция
+French ; French	французский
+French Guiana	Французская Гвиана
+French Polynesia	Французская Полинезия
+French Southern Territories ; French Southern and Antarctic LandsA ; French Southern and Antarctic Lands ; Territory of the French Southern and Antarctic Lands	Teritoriile australe şi antarctice franceze ; Французские Южные и Антарктические Территории
+French formal garden	французский сад
+Frenchman	француз
+Friday	пятница
+Frisian ; Western Frisian	Фризский ; фризский
+GDP ; gross domestic product	валовый внутренний продукт
+GDR ; German Democratic Republic	ГДР ; Германская Демократическая Республика
+GIS digital format	цифровой формат ГИС
+GIS digital system	цифровая система ГИС
+GIS digital technique	цифровые средства ГИС
+GIS laboratory	лаборатория ГИС
+Gabon ; Gabonese Republic	Габон
+Gaborone	Габороне
+Galician ; Galician	галисийский
+Gambia ; Gambia ; Gambia ; Gambia ; The Gambia ; Republic of The Gambia	Гамбия
+Gaza Strip	Сектор Газа
+Gemini	Близнецы
+Georgia	Грузия
+Georgia	Джорджия
+Georgian ; Georgian	грузинский
+German	немецкий
+German	немец ; немка
+German (Austria)	немецкий (Австрия)
+German (Switzerland)	немецкий (Швейцария)
+Germany ; Federal Republic of Germany	Германия
+Ghana ; Republic of Ghana	Гана
+Gibraltar	Гибралтар
+Global Environment Facility ; GEF	"Глобальный экологический фонд" - ГЭФ ; Глобальный экологический фонд ; ГЭФ
+Great Britain ; Britain	Великобритания
+Greece ; Hellenic Republic	Греция
+Greek ; Greek	греческий
+Greenland	Гренландия
+Grenada	Гренада
+Guadeloupe	Гваделупа
+Guam ; Guam ; Guam	Гуам
+Guatemala ; Republic of Guatemala	Гватемала
+Guinea ; Republic of Guinea	Гвинея
+Guinea-Bissau ; Republic of Guinea-Bissau	Гвинея-Бисау
+Gujarati ; Gujarati	гуджарати ; гуджаратский ; гуярати
+Guyana ; Republic of Guyana	Гайана
+H5N1 ; Influenza A virus subtype H5N1 ; A(H5N1)	Подтип H5N1 вируса гриппа A ; A(H5N1) ; H5N1
+Haiti ; Republic of Haiti	Гаити
+Hanover	Ганновер
+Happy New Year	с Новым годом
+Hebrew	иврит
+Hercules	Геркулес
+Hindi ; Hindi	хинди
+Holland ; Kingdom of the Netherlands ; The Netherlands	Голландия
+Honduras ; Republic of Honduras	Гондурас
+Hungarian	венгерский
+Hungary ; Republic of Hungary	Венгрия
+I	я
+IMCO code	код ИМКО (Межправительственная морская консультативная организация)
+IMF ; International Monetary Fund	Международный валютный фонд
+ISO standard	стандарт ИСО (Международной организации по стандартизации) ; стандарт ИСО
+Iceland ; Republic of Iceland	Исландия
+Icelandic	исландский
+Ido ; Ido	идо
+Iliad	Илиада
+India ; Republic of India	Индия
+Indian Ocean	Индийский океан
+Indonesia ; Republic of Indonesia	Индонезия
+Indonesian	индонезийский
+Indre	Эндр
+Interlingua ; Interlingua, "Simplified" Latin ; Interlingua, "Simplified" Latin	интерли́нгва
+International Court of Justice	Международный Суд
+Internet	Интернет
+Iran ; Islamic Republic of Iran	Иран
+Iraq ; Republic of Iraq	Ирак
+Ireland ; Republic of Ireland	Ирландия
+Irish ; Irish ; Irish Gaelic ; Irish	ирландский
+Islam	ислам
+Isle of Man ; Isle of Mann ; Mann	Остров Мэн
+Israel ; State of Israel	Израиль
+Italian ; Italian	итальянский
+Italian Republic ; Italy	Италия
+Ivory Coast ; Cote d'Ivoire ; Republic of Cote d'Ivoire	Кот-д'Ивуар
+Jakarta ; Djakarta ; DKI Jakarta	Джакарта
+Jamaica	Ямайка
+January	январь
+Japan ; State of Japan	Япония
+Japanese ; Japanese	японский
+Javanese	яванский
+Jordan ; Hashemite Kingdom of Jordan	Иордания
+Judaism	иудаизм ; иудейство
+July	июль
+June	июнь
+Jupiter	Юпитер
+Kalaallisut	гренландский
+Kannada ; Kannada	каннада
+Karelian	карельский
+Kazakh ; Kazakh	казахский
+Kazakhstan ; Republic of Kazakhstan	Казахстан
+Kenya ; Republic of Kenya	Кения
+Khartoum	Хартум
+Khmer ; Central Khmer	кмер
+Kiribati ; Republic of Kiribati	Кирибати
+Korean ; Korean	корейский
+Kosovo	Косово и Метохия
+Krakow ; Cracow	Краков
+Kuwait ; State of Kuwait	Кувейт
+Kyoto	Киото
+Kyrgyzstan ; Kyrgyz Republic	Киргизстан
+Lagos	Лагос
+Laos ; Lao People's Democratic Republic	Лаос
+Latin ; Latin	латинский ; латынь
+Latvia ; Republic of Latvia	Латвия
+Latvian ; Latvian	латышский
+Lausanne	Лозанна
+Lebanon ; Lebanese Republic	Ливан
+Leningrad ; Petrograd ; Saint Petersburg ; St. Petersburg	Ленинград ; Петроград ; Санкт-Петербург
+Leo	Лев
+Lesotho ; Kingdom of Lesotho	Лесото
+Liberia ; Republic of Liberia	Либерия
+Libya ; Great Socialist People's Libyan Arab Jamahiriya	Ливия
+Liechtenstein ; Principality of Liechtenstein	Лихтенштейн ; Княжество Лихтенштейн
+Limburgish ; Limburgian	лимбургский
+Lisbon	Лиссабон
+Lithuania ; Republic of Lithuania	Литва
+Lithuanian ; Lithuanian	литовский
+London	Лондон
+Lower House	Нижняя Палата
+Lower Saxony	Нижняя Саксония
+Luxembourg ; Grand Duchy of Luxembourg	Люксембург
+Luxembourgish ; Luxemburgish ; Luxembourgian	люксембургский
+Macedonia ; Republic of Macedonia	Македония
+Macedonian ; Macedonian	македонский
+Madagascar ; Republic of Madagascar	Мадагаскар
+Malawi ; Republic of Malaŵi	Малави
+Malayalam ; Malayalam	малайялам ; малаялам
+Malaysia	Малайзия
+Maldives ; Republic of the Maldives	Мальдивы
+Mali ; Republic of Mali	Мали
+Malta ; Republic of Malta	Мальта
+Maltese	мальтийский
+Marathi ; Marāthi ; Marāthi ; MarÄthi	маратхи
+March	март
+Markov chain ; Markoff chain	цепь Маркова
+Marshall Islands ; Republic of the Marshall Islands	Маршалловы острова
+Martinique	Мартиника
+Mauritania ; Islamic Republic of Mauritania	Мавритания
+Mauritius ; Republic of Mauritius	Маврикий
+May	май
+Mayotte	Майотта
+Mecca	Мекка
+Mediterranean Area	средиземноморский регион
+Mediterranean Sea	Средиземное море
+Mediterranean climate	средиземноморский климат
+Mediterranean forest	средиземноморский лес
+Mediterranean wood	средиземноморский лес
+Mercury	Меркурий
+Merry Christmas	С Рождеством Христовым
+Mexico ; United Mexican States	Мексика
+Micronesia ; Federated States of Micronesia	Микронезия
+Milan	Милан
+Milky Way ; Galaxy	Млечный Путь
+Milwaukee	Милуоки
+Moldova	Молдова
+Monaco	Монако
+Monday	понедельник
+Mongolia	Монголия
+Montenegro	Черногория
+Montserrat	Монтсеррат
+Morocco ; Kingdom of Morocco	Марокко
+Moscow	Москва
+Mount Fuji	Фудзи
+Mozambique	Мозамбик
+Mumbai ; Bombay	Бомбей ; Мумбаи
+Munich	Мюнхен
+Myanmar	Мьянма
+NIMBY aptitude ; NIMBY attitude	принцип "Только не у меня дома!"
+NOEL	"не имеет выраженного действия"
+Nagorno-Karabakh	Нагорный Карабах
+Nairobi	Найроби
+Namibia	Намибия
+Naples	Неаполь
+Nauru ; Republic of Nauru	Науру
+Neapolitan ; Neapolitan	неаполитанский
+Nepal	Непал
+Nepali ; Nepali	непальский
+Neptune	Нептун
+New Caledonia	Новая Каледония
+New Year ; New Year's Day	Новый год
+New York	Нью-Йорк
+New Zealand	Новая Зеландия
+Nicaragua	Никарагуа
+Niger	Нигер
+Nigeria	Нигерия
+Niue	Ниуэ
+North Africa	Северная Африка
+North America	Северная Америка
+North Atlantic Ocean	северная часть Атлантического океана
+North Korea ; Democratic People's Republic of Korea	Северная Корея
+North-South relationship	взаимоотношения "Север-Юг"
+Northern Ireland	Северная Ирландия
+Norway ; Kingdom of Norway	Норвегия
+Norwegian	норвежский
+November	ноябрь
+Novial	новиаль
+Nuuk	Нук
+Nynorsk	нюнорск
+Oceania	Океания
+October	октябрь
+Oman ; Sultanate of Oman	Оман
+Orleans	Орлеан
+Oslo	Осло
+Pacific Ocean	Тихий океан
+Pakistan ; Islamic Republic of Pakistan	Пакистан
+Palau	Палау
+Panama	Панама
+Papua New Guinea	Папуа-Новая Гвинея
+Paraguay	Парагвай
+Parliament	парламент
+People's Republic of China ; China	Китай
+Persian ; Western Farsi ; Farsi	персидский ; фарси
+Peru ; Republic of Peru	Перу
+Philadelphia	Филадельфия
+Philippines	Филиппины
+Phobos	Фобос
+Piedmontese ; Piedmontese ; Piemontese ; Piemontese	пьемонтезский
+Poland	Польша
+Polish ; Polish	польский
+Portugal	Португалия
+Portuguese ; Portuguese	португальский
+Puerto Rico	Пуэрто-Рико
+Punjabi ; Panjabi	панджаби ; пенджабский
+Pyrrhic victory	пиррова победа
+Qatar	Катар
+Ramadan	Рамадан
+Republic of the Congo ; Congo-Brazzaville	Республика Конго
+Rhône	Рона
+Romania	Румыния
+Romanian ; Romanaian	румынский
+Rome	Рим
+Russia ; Russian Federation	Ryssland ; Россия ; Российская Федерация
+Russian ; Russian	русский ; russo
+Sagittarius	Стрелец
+Saint-Pierre and Miquelon	Сен-Пьер и Микелон
+Sakhalin ; Saghalien	Сахалин
+Samoa	Самоа
+San Marino	Сан Марино
+Sanskrit ; Sanskrit	санскрит
+Sapir–Whorf hypothesis	гипотеза Сепира-Уорфа
+Saturday	суббота
+Saturn	Сатурн
+Saudi Arabia ; Kingdom of Saudi Arabia	Саудовская Аравия
+Saxony	Саксония
+Scorpio	Скорпион
+Scotland	Шотландия
+Seine	Сена
+Senegal	Сенегал
+September	сентябрь
+Serbia	Сербия
+Serbia and Montenegro	Сербия и Черногория
+Serbian ; Serbian	сербский
+Seychelles ; Republic of Seychelles	Сейшелы
+Sicilian ; Sicilian	сицилийский
+Sierra Leone	Сьерра-Леоне
+Sindhi ; Sindhi	синдхи
+Singapore	Сингапур
+Slovak ; Slovak	словацкий
+Slovakia	Словакия
+Slovene ; Slovenian ; Slovenian	словенский
+Slovenia	Словения
+Sochi	Сочи
+Solomon Islands	Соломоновы острова
+South Africa	Южная Африка ; Южно-Африканская Республика ; ЮАР
+South America	Южная Америка
+South Korea ; Republic of Korea	Южная Корея
+Southeast Asia	Юго-Восточная Азия
+Southern Asia ; South Asia	Южная Азия
+Spain	Испания
+Sri Lanka	Шри-Ланка
+Sudan	Судан
+Sunday	воскресенье
+Suriname	Суринам
+Swahili	суахили
+Sweden	Швеция
+Swedish	шведский
+Switzerland	Швейцария
+Syria ; Syrian Arab Republic	Сирия
+Tagalog	тагальский
+Taiwan	Тайвань
+Tajik	таджикский
+Tajikistan	Таджикистан
+Tamil ; Tamil	тамильский
+Tanzania	Танзания
+Tatar ; Tatar	tатарский ; татарский
+Taurus	Телец
+Tehran	Тегеран
+Telugu ; Telugu	телугу
+Tennessee	Теннесси
+Thai ; Thai	тайский
+Thailand	Таиланд
+The Hague	Гаага
+Thuringia	Тюрингия
+Thursday	четверг
+Togo	Того
+Tokyo	Токио
+Tonga	Тонга
+Toronto	Торонто
+Tswana	тсвана
+Tuesday	вторник
+Tunisia	Тунис
+Turkey	Турция
+Turkish ; Turkish	турецкий
+Turkmenistan	Туркменистан
+UN ; United Nations	Организация Объединенных Наций
+Uganda ; Republic of Uganda	Уганда
+Ukraine	Украина
+Ukrainian ; Ukrainian	украинский
+United Arab Emirates	Объединённые Арабские Эмираты
+United Kingdom ; United Kingdom of Great Britain and Northern Ireland ; UK	Великобритания ; Соединённое Королевство Великобритании и Северной Ирландии
+United States ; United States of America ; America ; US ; U.S. ; U.S.A. ; U.S. of A. ; States	Соединённые Штаты Америки ; США
+Uranus	Уран
+Urdu ; Urdu	урду
+Utah	Юта
+Vaduz	Вадуц
+Vatican City ; The Holy See ; State of the Vatican City	Государство-город Ватикан
+Venezuela	Венесуэла
+Venice	Венеция
+Venus	Венера
+Vienna	Вена
+Vietnamese ; Vietnamese	вьетнамский
+Volapük	волапюк
+Volga	Волга
+Wales	Уэльс
+Wallis and Futuna ; Territory of the Wallis and Futuna Islands	Острова Уоллис и Футуна
+Walloon ; Walloon	валлонский
+Washington	Вашингтон
+Wednesday ; quarta-feira	среда
+Welsh ; Welsh	валлийский
+Western Asia ; Southwest Asia	Западная Азия
+Western Europe	Западная Европа
+Wikipedia	Википедия
+Wiktionary	Викисловарь
+World Wide Web ; WWW	Всемирная сеть
+Wyoming	Вайоминг
+Xhosa	коса
+Yemen ; Republic of Yemen	Йемен
+Yiddish	идиш
+Yugoslavia	Югославия
+Zambia ; Republic of Zambia	Замбия
+Zanzibar	Занзибар
+Zimbabwe ; Republic of Zimbabwe	Зимбабве
+Zulu	зулу ; зулусский
+aAmplitude ; amplitude	aмплитуда
+aback	ошеломлённый
+abacus	абак
+abandoned industrial site	заброшенная промышленная площадка
+abandoned vehicle ; car wreck	брошенный автомобиль
+abbreviation	сокрaщение
+abiotic environment	абиотическая среда
+abiotic factor	абиотический фактор
+abolitionist	аболиционист
+abortive	неудачный
+abrasive	абразивный
+abridge	сокращать
+abscess	абсцесс
+absorption	абсорбция
+acceleration	ускорение
+acceptable daily intake	допустимая суточная норма потребления
+acceptable risk level	приемлемый уровень риска
+access road	подъездные дороги
+access to administrative documents	доступ к административным документам
+access to culture	доступ к культурным ценностям
+access to information	доступ к информации
+access to the courts	доступ к судебным органам
+accident	авария
+accident source ; cause of the accident	причина аварии
+accidental release of organisms	выброс биоматериала в результате аварий
+accordion ; squeeze box ; piano accordion	гармоника ; гармонь
+accounting	бухгалтерский учет
+accounting system	система бухучета
+accumulator	аккумуляторная батарея
+acid	кислота
+acid deposition	кислотные осадки
+acid rain	кислотный дождь
+acidification	подкисление
+acidity	кислотность
+acidity degree	уровень кислотности
+acne	угреватость
+acoustic comfort	акустический комфорт
+acoustic filter ; audio filter	акустический фильтр
+acoustic insulation	звукоизоляция
+acoustic level ; sound pressure level	уровень звука
+acoustic property	акустические свойства
+acoustical quality	акустическое свойство
+acoustics	акустика
+acquisition	приобретение
+acrid	едкий
+act ; deed	акт
+actinide	актиниды
+actinium	актиний
+action group ; action committee	группа активистов
+activated carbon	активированный уголь
+activated sludge	активный ил
+active participation	активное участие
+active population	экономически активное население
+activist	активист
+adaptation period	период адаптации
+add	прибавить
+addition	сложение
+additional packaging	дополнительная упаковка
+additive	добавки
+adequate food supply	достаточное обеспечение продуктами питания
+adhesive	адгезивные вещества
+adieu ; bye ; cheerio ; farewell ; good day ; goodbye	пока
+adjective ; describing word	имя прилагательное
+adjust	приспособить
+administration ; direction ; management	администрация ; управление
+administrative body ; administrative organ	административный орган
+administrative boundary	административная граница
+administrative competence ; administrative ability	компетентность административного персонала
+administrative deed	действие администрации
+administrative fiat	административный приказ
+administrative instructions	административная подготовка
+administrative law	административное право
+administrative occupation	административная должность
+administrative organisation	административная организация
+administrative procedure	административная процедура
+administrative sanction	административная санкция
+adoption	усыновление
+adsorption	адсорбция
+adult	взрослый человек
+adult education	обучение взрослого населения
+adventure	приключение
+adverb	наречие
+advertisement ; promotion	реклама
+advice	консультация ; совет, консультация ; совет
+aeration	аэрация
+aerial	антенна
+aerial photograph	аэрофотоснимок
+aerial photography	аэрофотосъемка
+aerobic process	аэробный процесс
+aerobic treatment	аэробная обработка
+aerobiology	аэробиология
+aerodynamic noise	аэродинамический шум
+aeroplane ; bird ; plane	аэроплан ; самолёт
+aerosol	аэрозоль
+aesthetics	эстетика
+afforestation ; tree planting ; afforestment	облесение
+afterburning ; afterburning ; afterburner	дожигание
+age	возраст
+aggressive	нападающий
+aggressor ; assailant ; attacker ; assaulter	противник
+agoraphobia ; agoraphobia ; agoraphobia ; agoraphobia	aгорафобия ; aгорафобия
+agreement	соглашение
+agri-foodstuff	производство продуктов питания в сельском хозяйстве
+agricultural biotechnology	сельскохозяйственная биотехнология
+agricultural building	сельскохозяйственное строение
+agricultural disaster	бедствие, наносящее вред сельскому хозяйству
+agricultural ecology ; agroecology	экология сельского хозяйства
+agricultural economics	экономика сельского хозяйства
+agricultural effluent	сельскохозяйственные стоки
+agricultural engineering	агротехника
+agricultural equipment	сельскохозяйственное оборудование
+agricultural equipment ; agricultural machinery ; farm machinery	сельскохозяйственное оборудование ; сельскохозяйственные машины
+agricultural exploitation	сельскохозяйственная эксплуатация
+agricultural hydraulics	мелиорация
+agricultural land	сельскохозяйственные угодья
+agricultural landscape	сельскохозяйственный ландшафт
+agricultural legislation	сельскохозяйственное право
+agricultural management	управление в сельском хозяйстве
+agricultural method	агротехнические методы
+agricultural pest	сельскохозяйственные вредители
+agricultural planning	планирование сельского хозяйства
+agricultural policy	сельскохозяйственная политика
+agricultural pollution	сельскохозяйственное загрязнение
+agricultural product	сельскохозяйственная продукция
+agricultural production ; farm production ; agricultural output	сельскохозяйственное производство
+agricultural real estate	объект недвижимости в сельском хозяйстве
+agricultural storage	хранение сельскохозяйственной продукции
+agricultural structure	основные фонды сельского хозяйства
+agricultural undervaluation	занижение цен на сельскохозяйственную продукцию
+agricultural waste	отходы сельского хозяйства
+agriculture	сельское хозяйство
+agriculture ; agriculture	сельское хозяйство ; сельское хозяйство
+agriculture and cattle industry	сельское хозяйство и животноводство
+agriculture framework plan	перспективный сельскохозяйственный план
+agritourism	загородный туризм
+agrochemical	агрохимикат
+agroforestry	агролесоводство
+agroindustry	агроиндустрия
+agrometeorology	агрометеорология
+agronomic value	цена на сельхозпродукцию
+agronomy	агрономия
+agrosystem	агросистема
+aid policy	политика в области экономической помощи
+air	воздух
+air conditioning ; AC ; air-conditioning	кондиционирование воздуха
+air movement	движение воздуха
+air pollutant	вещество, загрязняющее воздух
+air pollution	загрязнение воздуха
+air quality	качество воздуха
+air quality control	контроль за качеством воздуха
+air quality management	управление качеством воздуха
+air quality monitoring	мониторинг качества воздуха
+air sac ; alveolus	альвеола
+air safety	воздушная безопасность
+air temperature	температура воздуха
+air traffic	движение воздушного транспорта
+air traffic law	законы в области воздушного транспорта
+air transportation	воздушные перевозки
+air-water interaction	взаимодействие "воздух-вода"
+airborne noise	шум от находящихся в воздухе источников
+aircraft	летательный аппарат
+aircraft noise	шум, производимый летательными аппаратами
+airmail	авиапочта
+airport	аэропорт
+airspace planning	аэрокосмическое планирование
+alarm ; alert ; warning	тревога
+alarm clock	будильник
+albinism	aльбинизм
+alchemist	алхимик
+alchemy	алхимия
+alcohol	алкоголь
+alcoholism	алкоголизм
+alga	водоросль
+algal bloom	рост водорослей
+algebra	алгебра
+algicide ; algaecide	алгицид
+algorithm	алгоритм
+alibi	алиби
+alicyclic compound	алициклическое соединение
+alicyclic hydrocarbon	алициклический углеводород
+alignment	упорядочение
+aliphatic compound	алифатическое соединение
+aliphatic hydrocarbon	алифатический углеводород
+alkali soil	щелочная почва
+alkaline ; element of group I ; alkaline metal ; alkali metal	химический элемент группы I
+alkaline battery	щелочной элемент питания
+alkane ; paraffin ; methane series ; alkane series	алкан
+alkyl compound	алкильное соединение
+all-terrain vehicle	внедорожник
+allegory	аллегория
+allergen	аллерген
+allergy	аллергия
+allocation ; allotment ; resource allotment	распределение
+allocation plan	планирование распределения материально-сырьевых ресурсов
+allotropy	аллотропия
+allowance	денежная помощь
+alloy	сплав
+alluvial plain	аллювиальная равнина
+alluvion ; flood ; overflowing ; inundation	наводнение
+almanac	альманах
+almost	почти
+alpha radiation	альфа-излучение
+alphabet	алфавит
+alternative material	альтернативный материал
+alternative technology	альтернативная технология
+altitude	высота ; высота (геогр.)
+alumina	глинозем
+aluminium	алюминий
+aluminium container	алюминиевый контейнер
+aluminium content	содержание алюминия
+aluminium industry	алюминиевая промышленность
+amalgam	амальгама
+ambassador	посол
+ambulance	скорая помощь
+americium	америций
+amethyst	аметист
+amine	амин
+amino acid	аминокислота
+ammonia	аммиак
+ammonification	аммонификация
+ammonium	аммоний
+amphetamine	амфетамин
+amphibian	амфибии
+amphitheatre	амфитеатр
+amusement park	парк развлечений
+anaconda	анаконда
+anaerobic process	анаэробный процесс
+anaerobic treatment	анаэробная обработка
+anagram	анаграмма
+analogy	аналогия
+analysis	анализ
+analysis programme	программа анализа
+analytical chemistry	аналитическая химия
+analytical equipment	аналитическое оборудование
+analytical method	аналитический метод
+anarchism	aнархизм
+anarchy	анархия
+anatomy	анатомия
+anchor	якорь
+angel	ангел
+angiosperm ; flowering plant	покрытосеменные ; цветочное растение
+angling ; fishing ; line-fishing	спортивная рыбная ловля
+animal	животное
+animal behaviour	поведение животных
+animal biology	биология животных
+animal conservatory	заповедник животных
+animal corridor	"коридор" для животных
+animal damage	ущерб, наносимый животными
+animal disease	болезни животных
+animal displacement	перемещение животных
+animal ecology	экология животных
+animal excrement	экскременты животных
+animal experiment	эксперименты над животными
+animal foodstuff	корм для животных
+animal for slaughter	животные для забоя
+animal habitat	природная среда обитания животных
+animal heritage	наследие животного мира
+animal husbandry	животноводство
+animal manure	навоз
+animal migration	миграция животных
+animal noise	шум, производимый животными
+animal nutrition	питание животных
+animal physiology	физиология животных
+animal population	популяция животных
+animal product	животноводческая продукция
+animal production	производство животноводческой продукции
+animal protection	защита животных
+animal reproduction	репродукция животных
+animal resource	животные ресурсы
+animal rights	права животных
+animal shelter	помещения для содержания животных
+animal species	животные виды
+animal species reintroduction	повторное заселение видов животных
+animal trade	торговля животными
+animal waste	отходы животноводства
+anime	аниме
+anion	анион
+anise	анис
+ankle ; talocrural joint	лодыжка ; щиколотка
+annelid	кольчатые черви
+anniversary	годовщина
+ant	муравей
+antagonism	антагонизм
+antelope	антилопа
+anthropic activity	деятельность человека
+anthropologic reserve	антропологический заповедник
+anthropologist	антрополог
+anthropology	антропология
+antibiotic	антибиотик
+antibody	антитело
+anticipation of danger	ожидание опасности
+antifouling agent	антиводорослевый реагент
+antimony	сурьма
+antiparticle	античастица
+antipollution incentive	стимулирование борьбы с загрязнением окружающей среды
+antiquated plant	завод с устаревшим оборудованием
+antiseismic regulation	антисейсмические нормативы
+antonym	антонимы
+anvil	наковальня
+anytime	всегда
+apartheid	апартеид
+apartment block	многоквартирный жилой дом
+apathy	апатия
+aphorism	афоризм
+apiculture ; beekeeping	пчеловодство
+apoptosis	апоптоз
+apostle	апостол
+appeal	апелляция
+appeal procedure	процедура апелляции
+apple	яблоко
+apple ; apple tree	яблоня
+applied ecology	прикладная экология
+applied nutrition	прикладная диететика
+applied research	прикладное исследование
+applied science	прикладная наука
+appraisal	оценка
+approach	подход
+appropriate technology	приемлемая технология
+approval ; approbation	одобрение
+approval of installations	разрешение на использование промышленной установки
+aquaculture	аквакультура
+aquamarine	аквамарин
+aquarium	аквариум
+aquatic animal	водное животное
+aquatic ecology	экология водной среды
+aquatic ecosystem	водная экосистема
+aquatic environment	водная среда
+aquatic mammal	водное млекопитающее
+aquatic organism	водный организм
+aquatic plant	водное растение
+aqueduct	акведук
+aquifer	водоносный пласт
+arable farming	земледелие
+arboretum	ботанический сад
+arboriculture	древоводство
+archaeological	археологический
+archaeological site	археологическая площадка
+archaeology ; archeology ; archæology	археология
+archbishop	архиепископ
+archduke	эрцгерцог
+archeologist ; archaeologist	археолог
+archer ; archer	лучник
+archetype	архетип
+archipelago	архипелаг
+architect	архитектор
+architecture	архитектура
+archive	архив
+area of potential pollution	ареал потенциального загрязнения
+area under stress	районы напряженной экологической обстановки
+argon	аргон
+arid land	аридные (засушливые) земли
+aristocracy	аристократия
+arithmetic ; arithmetics	арифметика
+armament	вооружение
+armament conversion	конверсия вооружений
+armed forces	вооруженные силы
+armistice	перемирие
+armoury	арсенал
+armpit	подмышка
+aromatic compound	ароматические соединения
+aromatic hydrocarbon	ароматический углеводород
+aromatic substance	ароматическое вещество
+arrange ; adapt ; adjust ; conform ; accommodate ; suit	приспособить
+arrangement for a deposit on packaging	депозит за возвратную тару
+arrow	стрела
+arrowhead	наконечник
+arsenic	мышьяк
+arson	поджог
+arsonist	поджигатель
+art	искусство
+artery	артерия
+artful	хитроумный
+arthritis	артрит
+arthropod	артроподы
+artificial lake	искусственное озеро
+artificial reproductive technique	методы искусственного воспроизводства
+artificial satellite	искусственный спутник
+artist ; creative person	артист
+asbestos	асбест
+asbestos cement	асбестоцемент
+asbestosis	асбестоз
+ascendancy	власть
+ascent	восхождение
+ascent	подъём
+ascertain	устанавливать
+ascetic	аскет
+ash	зола
+ashamed	пристыженный
+ashore	на берег
+ashtray	пепельница
+asleep	спящий
+asparagus	спаржа
+asphalt	асфальт
+aspiration	стремление
+assay	качественный и количественный анализ
+assemble ; get together ; gather	созывать
+assent	согласие
+assent	соглашаться
+assert	утверждать
+assert	отстаивать
+assertive	настойчивый
+assign	назначать
+assignment	задача
+assimilate	усваивать
+assimilation	ассимиляция
+assist	ассистировать
+association	ассоциация
+assorted	сортированный
+astatine	астат
+asterisk	звёздочка
+asteroid	астероид
+asthenosphere	астеносфера
+asthma	астма
+astonish	удивлять
+astonishing	удивительный
+astonishment	удивление
+astound	поражать
+astounding	поразительный
+astride	верхом
+astride	расставив ноги
+astrologer	астролог
+astrology ; star divination	астрология
+astrometry	астрометрия
+astronautics	астронавтика
+astronomer	астроном
+astronomy	астрономия
+astrophysics	астрофизика
+asymmetric ; asymmetrical	асимметричный
+asymptote	асимптота
+atheist	атеист
+atlas	атлас
+atmosphere	атмосфера
+atmospheric aerosol	атмосферный аэрозоль
+atmospheric chemistry	химия атмосферы
+atmospheric circulation	циркуляция атмосферы
+atmospheric component	компонент атмосферы
+atmospheric composition	состав атмосферы
+atmospheric correction	поправки на атмосферу
+atmospheric emission	атмосферный выброс
+atmospheric fallout	выпадение осадков из атмосферы
+atmospheric layering	слои атмосферы
+atmospheric monitoring	мониторинг атмосферы
+atmospheric ozone	атмосферный озон
+atmospheric particulate	атмосферная частица
+atmospheric physics	физика атмосферы ; Физика атмосферы
+atmospheric pollution	загрязнение атмосферы
+atmospheric precipitation ; precipitation	атмосферные осадки
+atmospheric process	атмосферный процесс
+atmospheric science	наука об атмосфере
+atmospheric structure	структура атмосферы
+atoll	атолл
+atom	атом
+atractive	привлекательный
+atrazine	атразин
+atrocity	зверство
+attachment	привязанность
+attachment	насадка
+attack	атака ; нападение
+attain	достигать
+attend	ухаживать
+attend	посещать
+attend	быть внимательным
+attend	уделять внимание
+attendant	служитель
+attentive	внимательный
+attic	чердак
+attire	наряд
+attire	наряжать
+attitude	поза
+attract	притягивать
+attribute	атрибут
+audacious	отважный
+audio-visual presentation	аудиовизуальное представление
+audiovisual equipment	аудиовизуальное оборудование
+audiovisual media	аудиовизуальные средства
+audit	аудит
+augment	увеличивать
+auspicious	благоприятный
+authorisation	санкционирование
+authoritarian	авторитарный
+authoritative	авторитетный
+authority body	орган власти
+authorship	авторство
+autocracy	самодержавие
+autoecology	автоэкология
+automobile industry	автомобильная промышленность
+autumn	осень
+avalanche	лавина
+avalanche protection	защита от схода лавин
+avaricious	алчный
+avert	предотвращать
+avert	отводить
+aviary	птичник
+aviation law	правила воздушных перевозок
+aviculture	птицеводство
+avid	жаждущий
+avifauna	авифауна
+awe	благоговение
+awhile	ненадолго
+axiom	аксиома
+aye ; yeah ; yep ; yes	да
+baboon	бабуин
+background level	фоновый уровень
+background noise	фоновый шум
+background radiation	фоновый уровень радиации
+bacon	бекон
+bacterial bed	бактериальный слой
+bactericide	бактерицид
+bacteriological pollution	бактериологическое загрязнение
+bacteriology	бактериология
+bacterium	бактерии
+bag ; pocket ; steal	краcть
+bagpipes	волынка
+baker	пекарь
+baking powder	разрыхлитель
+balance	баланс
+balance of matter	баланс материи
+balancing of interests	баланс интересов
+ballad	баллада
+ballroom	бальный зал
+banana	банан
+bank	берег
+bank protection	защита берегов
+banking	банковские операции
+barium	барий
+barley	ячмень
+barometer	барометр
+baron	барон
+barrier beach	песчаная коса
+barrier reef	барьерный риф
+base	основа
+baseball ; baseball game	бейсбол
+baseline monitoring	базовый мониторинг
+basic food requirement	потребности в основных продуктах питания
+basicity	основность (хим.)
+basidiomycete	базидиомицеты
+basketball ; basketball game	баскетбол
+bassoon	фагот
+bastardisation of fauna	вырождение фауны
+bastardisation of flora	вырождение флоры
+batch process	периодический процесс
+bathing freshwater	пресная вода, пригодная для купания
+bathing seawater	морская вода, пригодная для купания
+bathing water	водоемы для купания
+battery	аккумулятор
+battery disposal	утилизация использованных аккумуляторов
+bay	бухта
+beach	пляж
+beach cleansing	очистка побережья
+bean ; edible bean	боб
+bear	медведь
+beatification	беатификация
+beaver	бобр
+bed	кровать ; постель
+bee	пчела
+bee conservation	охрана пчел
+beef cattle	мясной скот
+beehive	улей
+beekeeper ; apiculturist	пчеловод
+beer	пиво
+beetle	жук
+behaviour	поведение
+behaviour of substances	свойства веществ
+behaviour pattern	манера поведения
+behavioural science	наука о поведении живых организмов
+belly button ; bellybutton ; navel ; omphalos ; omphalus ; umbilicus	пупок
+beneficial organism	полезный организм
+benthic division	слой бентоса
+benthos	бентос
+benzene	бензин
+benzopyrene	бензопирен
+berkelium	берклий
+beryllium ; glucinium	бериллий
+beta radiation	бета-излучение
+better	лучше
+between	между ; посреди
+beverage ; drink	напиток
+beverage industry	производство напитков
+bibliographic information	библиографическая информация
+bibliographic information system	библиографическая информационная система
+bibliography	библиография
+bicycle ; bike ; cycle	велосипед
+big game	крупное животное как объект охоты
+bilateral convention	двусторонняя конвенция
+bilge oil	трюмная нефть
+bilge water	трюмная вода
+binary star	двойная звезда
+bio-availability	биополезность
+bioaccumulation	бионакопление
+bioaccumulative pollutant	бионакопительное загрязняющее вещество
+biochemical method	биохимический метод
+biochemical oxygen demand	биохимическое потребление кислорода
+biochemical process	биохимический процесс
+biochemical substance	биохимическое вещество
+biochemistry	биохимия
+biocide	биоцид
+bioclimatology	биоклиматология
+biocoenosis	биоценоз
+bioconcentration factor	биоконцентрирующий фактор
+biodegradability	способность к биодеградации
+biodegradable pollutant	биодеградирующее загрязняющее вещество
+biodegradation	биодеградация
+biodiversity	биоразнообразие
+bioethics	биоэтика
+biofiltration	биофильтрация
+biofuel	биотопливо
+biogas	биогаз
+biogeochemical cycle	биохимический цикл
+biogeographical region	биогеографический регион
+biogeography	биогеография
+biological analysis	биологический анализ
+biological attribute	биологические свойства
+biological contamination	биологическое заражение
+biological cycle	биологический цикл
+biological development	биологическое  развитие
+biological effect	биологический эффект
+biological effect of pollution	биологический результат загрязнения
+biological engineering	биоинженерия
+biological heritage	биологическое наследие
+biological indicator	биологический индикатор
+biological monitoring	биологический мониторинг
+biological pest control	биологические меры борьбы с вредителями
+biological pollutant	биологическое загрязняющее вещество
+biological pollution	биологическое загрязнение
+biological process	биологический процесс
+biological production	биологическое производство
+biological reserve ; wildlife reserve	биологический заповедник
+biological resource	биологический ресурс
+biological test	биологический опыт
+biological treatment	биологическая обработка
+biological waste gas purification	биологическая очистка отработанного газа
+biological waste treatment	биологическая утилизация отходов
+biological wastewater treatment	биологическая переработка жидких отходов
+biological water balance	биологический баланс воды
+biological weapon	биологическое оружие
+biology ; biological science	биология
+bioluminescence	биолюминесценция
+biomarker	биоиндикатор
+biomass	биомасса
+biomass energy	энергия биомассы
+biome	биом
+biophysics	биофизика
+bioreactor	биореактор
+biorhythm	биоритм
+biosafety	биобезопасность
+biosphere	биосфера
+biosphere reserve	биосферный заповедник
+biosynthesis	биосинтез
+biotechnological hazard	биотехнологическая угроза
+biotechnology	биотехнология
+biotic factor	биотический фактор
+biotic index	биотический индекс
+biotope	биотоп
+biotope network	система биотопов
+biotope order	законодательный акт по вопросам биотопа
+biotope protection	защита биотопов
+bird	птица
+bird of prey	хищная птица
+bird sanctuary	заповедник для птиц
+bird species	виды птиц
+birth control	контроль за рождаемостью
+bishop	епископ
+bismuth	висмут
+bitumen	битум
+black	чёрный
+black coal ; black coal ; black coal ; anthracite coal	черный уголь
+blackbird	дрозд
+blacksmith	кузнец
+blast furnace	доменная печь
+bleaching agent	отбеливающий реагент
+bleaching clay	отбеливающая глина
+bleaching process	процесс отбеливания
+blister	волдырь
+blog ; weblog ; web log	блог
+blood	кровь
+blood plasma	плазма крови
+blue	синий ; голубой
+blue-green alga ; cyanobacteria	сине-зеленые водоросли
+boating	лодочный спорт
+bocage	бокаж
+bog	трясина
+bohrium	борий
+boiler	котел
+boiling point	точка кипения
+bonsai	бонсай
+book	книга
+bookkeeping	бухгалтерия
+border	граница
+boron	бор
+botanical conservatory	ботанический заповедник
+botanical garden	ботанический сад
+botany	ботаника
+botany ; phytology	ботаника
+bottle cap	крышка для бутылки
+boundary	предел
+boundary crossing	пересечение границы
+boundary layer	пограничный слой
+bow	лук
+boy	мальчик
+brackish water	солоноватая вода
+branch	ветка ; сук
+branch of activity	отрасль хозяйственной или коммерческой деятельности
+bread	хлеб
+breakfast	завтрак
+breast milk	грудное молоко
+breeding	разведение растений и животных
+breeding bird	птица в период размножения
+breeding technique	методы животноводства
+brick	кирпич
+bridge	мост
+bring	принести
+broad-leaved tree	широколиственное дерево
+broccoli	брокколи
+bromine	бром
+brooding	высиживание яиц
+brook	ручей
+brushwood	кустарниковые заросли
+bryophyte	бриофиты (мхи и печеночники) ; бриофиты
+bubble policy (emissions trading) ; bubble policy	политика зачета уровней выброса
+budget	бюджет
+budget policy	бюджетная политика
+bug ; põrnikas	клоп
+building	здание ; постройка
+building area	строительные площади
+building component	строительный элемент
+building destruction	снос зданий
+building industry	строительная индустрия
+building land	земля под строительство
+building material	строительный материал
+building materials industry	промышленность стройматериалов
+building permit	разрешение на строительство
+building planning	планирование строительства
+building regulation	нормативный документ в области строительства
+building related illness ; sick building syndrome	синдром вредного помещения
+building restoration	реконструкция зданий
+building service	строительная услуга
+building site	строительная площадка
+building site preparation	подготовка строительной площадки
+building technology	строительная технология
+building waste	отходы строительства
+built drainage system	система дренажа
+built environment	созданная среда
+built structure	строение
+built-up area	застроенная территория
+bulb cultivation	культивация луковиц
+bulky waste	крупногабаритные мусор и отходы
+bull	бык
+bumblebee	шмель
+bureaucracy	бюрократия
+bureaucratisation	бюрократизация
+bus ; coach	автобус
+bus station	автобусная остановка
+bush clearing	вырубка кустарников
+business	бизнес
+business activity	вид хозяйственной или коммерческой деятельности
+business classification	классификация бизнеса
+business economics	экономика предпринимательства
+business organisation	организация бизнеса
+business policy	политика в области развития бизнеса
+butcher	мясник
+butter	сливочное масло
+butterfly	бабочка ; мотылёк
+button ; clit ; clitoris	клитор
+button-cell battery	элемент питания
+buy ; purchase	покупать
+buy ; purchase	закупка
+by-catch	сопутствующий улов
+by-product	сопутствующий продукт
+cable	кабель
+cactus	кактус
+cadmium	кадмий
+caesium	цезий
+caffeine	кофеин
+calcium	кальций
+calcium content	содержание кальция
+calculation	калькуляция
+calculation method	метод калькуляции
+caliber	калибр
+calibration	калибровка
+californium	калифорний
+calligraphy	каллиграфия
+camera	фотоаппарат
+camouflage	камуфляж
+camp ; military camp ; army camp ; campsite	лагерь
+camping ; camping ground	кемпинг
+camping site	площадка для кемпинга
+canal	канал
+canal lock	шлюз
+cancer	рак
+cancer risk	риск онкологического заболевания
+candle	свечка ; свеча
+canid	псовый
+canyon	каньон
+capital	столица
+car ; automobile	автомобиль
+car park	автомобильная стоянка
+car tyre	автомобильная шина
+carbohydrate	углевод
+carbon	углерод
+carbon dioxide	диоксид углерода
+carbon dioxide tax	налог на выброс диоксид углерода
+carbon monoxide	моноксид углерода
+carbonate	карбонат
+carcass disposal	утилизация трупов животных
+carcinogen	канцероген
+carcinogenicity	канцерогенность
+carcinogenicity test	тест на канцерогенность
+cardinal	кардинал
+cardiology	кардиология
+cardiovascular disease	сердечно-сосудистое заболевание
+cardiovascular system	сердечно-сосудистая система
+career	карьера
+carnivore	плотоядный
+carpet	ковëр
+carry-over effect	эффект переноса
+cartography	картография
+case ; lawsuit ; trial	судебное разбирательство
+cash crop	товарная сельскохозяйственная культура
+castle	за́мок
+cat	кот ; кошка
+catalysis	катализ
+catalyst	катализатор
+catalytic converter	каталитический конвертер
+catapult	катапульта
+catastrophe	катастрофа
+catch yield	улов
+catchment	дренаж
+catchment area	водосбор
+category	категория
+category of endangered species	исчезающий вид
+cation	катион
+cattle	скот
+cauliflower	conopidă ; цветная капуста
+cause-effect relation	причинно-следственная взаимосвязь
+cave	пещера
+caviar	икра
+celery	сельдерей
+cell ; cell	клетка ; клетка
+cell ; electrochemical cell ; energy cell ; Galvanic cell ; στοιχείο	гальвани́ческий элеме́нт ; элемент питания
+cellulose	целлюлоза
+cellulose industry	целлюлозная промышленность
+cement	цемент
+cement industry	цементная промышленность
+cement manufacture	производство цемента
+census survey	перепись населения
+central government	правительство федерального уровня
+central park area	центральная часть природного парка
+centralisation	централизация
+centrifugation	центрифугирование
+cephalopod	цефалоподы
+ceramics	керамика
+ceramics industry	производство керамических изделий
+cerium	церий
+certification	сертификация
+cetacean	китовые
+chair	стул
+chalk	мел
+champagne	шампанское
+change in value	изменение стоимости
+channelling	системы распределения
+chaos theory	теория хаоса
+characteristic	атрибут ; свойство ; качество ; особенность ; признак
+charcoal	древесный уголь
+chart	официальный документ
+chart ; nautical chart	морская карта
+cheers ; thank you ; thanks	благодарность
+cheese	сыр
+cheetah ; chetah	гепард
+chelicerate	клешневидный
+chemical	химикат
+chemical addition	реакция присоединения
+chemical analysis	химический анализ
+chemical composition	химический состав
+chemical contamination	химическое заражение
+chemical corrosivity	подверженность химической коррозии
+chemical decontamination	химическая дезактивация
+chemical element ; element	химический элемент ; элемент
+chemical fallout	химические осадки
+chemical fertiliser	химическое удобрение
+chemical in the environment	химические вещества в окружающей среде
+chemical industry	химическая промышленность
+chemical installation	здание для химического производства
+chemical measurement of pollution	химическое измерение уровня загрязнения
+chemical oxygen demand	химическое потребление кислорода
+chemical pest control	борьба с вредителями химическими методами
+chemical plant	химический завод
+chemical policy	политика в области химии
+chemical pollutant	химическое загрязняющее вещество
+chemical pollution	химическое загрязнение
+chemical process	химический процесс
+chemical product	химический продукт
+chemical property	химические свойства
+chemical reaction	химическая реакция
+chemical reduction	химическое восстановление
+chemical risk	риск от химического воздействия
+chemical structure	химическая структура
+chemical treatment	химическая обработка
+chemical waste	химические отходы
+chemical weapon	химическое оружие
+chemicals act	закон в области использования химикатов
+chemisorption	хемосорбция
+chemist ; pharmacist	аптекарь
+chemist's ; chemist's shop ; pharmacy	аптека
+chemistry	химия
+chess	șah ; шахматы
+chestnut	каштан
+chicken	курица ; курица ; куры ; куры ; петух ; петух
+child	ребенок
+chimney	труба
+chimney height	высота трубы
+chimpanzee	шимпанзе
+chipmunk	азиатский ; сибирский бурундук
+chiropteran	рукокрылые
+chloride	хлорид
+chlorinated hydrocarbon	хлорированный углеводород
+chlorination	хлорирование
+chlorine	хлор
+chlorophenol	хлорофенол
+chlorophyll	хлорофилл
+chlorosis	хлороз
+chocolate	шШоколад ; шоколад
+cholesterol	холестеринc
+chordate	хордовые
+chorology	хорология
+chromatographic analysis	хроматографический анализ
+chromatography	хроматография
+chromium	хром
+chromosome	хромосома
+chrysophyta	хризофита
+church	церковь
+cigar	сигара
+cigarette	сигарета ; папироса
+cinematographic film	кинофильм
+circular mail	циркулярное письмо
+citizen	гражданин
+citizen awareness	осведомленность граждан
+citizen initiative	гражданская инициатива
+citizen rights	гражданские права
+city	город
+city centre	городской центр
+civil air traffic	движение гражданского  воздушного транспорта
+civil engineering	гражданское строительство
+civil law	гражданское право
+civil safety	гражданская оборона
+civilian protection	гражданская оборона
+claim for restitution	право подать иск на реституцию
+clarinet	кларнет
+classification	классификация
+clay	глина
+clean air area	район чистого воздуха
+clean air car	"чистый" автомобиль ; чистый автомобиль
+clean technology	чистая технология
+cleaning up	расчистка
+cleanliness	чистота
+cleansing department	отдел очистки
+clearing sludge	осадочный ил
+cliff	скала
+climate	климат
+climate protection	защита климата
+climate resource	климатический ресурс
+climate type	тип климата
+climatic alteration	локальное климатическое изменение
+climatic change ; climate change	изменение климата
+climatic effect	влияние климата
+climatic experiment	климатический эксперимент
+climatic zone	климатическая зона
+climatology	климатология
+climax	кульминация
+climbing plant (wall) ; climbing plant	вьющееся растение
+clinical symptom	клинический симптом
+cloning	клонирование
+closing down	закрытие
+closing down of firm	закрытие фирмы
+clothing ; apparel	одежда
+clothing industry	производство одежды
+cloud	облако
+co-incineration	одновременное сжигание отходов
+co-operation	сотрудничество
+co-operation policy	политика сотрудничества
+co-operation principle	принцип сотрудничества
+co-ordinate system	система координат
+co-ordination	координация
+coagulation	коагуляция
+coal	уголь
+coal industry	угольная промышленность
+coal liquefaction	ожижение угля
+coal mining	добыча угля
+coal refining	обогащение угля
+coal technology	гидрогенизация угля
+coal-based energy	производство энергии на основе угля
+coal-fired power plant	теплоэлектростанция, работающая на угле
+coast	берег
+coast protection	охрана прибрежных районов
+coastal area	береговая зона
+coastal development	освоение морских прибрежных районов
+coastal ecosystem	прибрежная экосистема
+coastal environment	прибрежная среда
+coastal fishing	прибрежное рыболовство
+coastal pollution	загрязнение побережий
+coastal water	прибрежные воды
+coastal zone planning	планирование прибрежных зон
+coastguard	спасательная служба на воде
+coating	покрытие
+cobalt	кобальт
+cocaine	кокаин
+cockroach	таракан
+code	кодекс
+code of practice	обычаи и практика
+codification	кодификация
+coelenterate	кишечнополостные
+coffee	кофе
+cogeneration	одновременная генерация тепла и электричества
+coin ; money	монета
+coke	кокс
+cold	холод
+coliform bacterium	колибактерии
+colina ; hill ; loma	холм
+collective wastewater treatment	очистка объединенных стоков
+colloid	коллоид
+colloidal state	коллоидное состояние
+colonisation	колонизация
+colony	колония
+colour ; colour ; colo(u)r	цвет ; цвет ; цвет
+colour composition	комбинированное цветное изображение
+colourimetry	колориметрия
+colubrid	змеи
+combination effect	комбинированный эффект (биол.)
+combined cycle-power station	тепловая электростанция на различных видах топлива
+combined sewer system	комбинированная сточная система
+combined transport	комбинированные перевозки
+combined waste water	смешанные сточные воды
+combustibility	способность к горению
+combustion engine	двигатель внутреннего сгорания
+combustion gas	выхлопной газ
+combustion residue	продукты нагара
+come	прийти ; приходить
+comet	комета
+commercial fishery	промышленная рыбная ловля
+commercial law	коммерческое право
+commercial noise	шум от производственной деятельности
+commercial traffic	движение грузового транспорта
+commercial transaction	коммерческая сделка
+commercial vehicle	грузовое транспортное средство
+commercialisation	коммерциализация
+common agreement	общее соглашение
+common agricultural policy ; common agricultural policy of the EU	"Единая сельскохозяйственная политика" ; Единая сельскохозяйственная политика
+common commercial policy	единая политика в области коммерческой деятельности
+common tariff policy	единая тарифная политика
+communications	связь
+communications industry	индустрия связи
+communications policy	политика в области средств связи
+communications system	система связи
+communism	коммунизм
+community facility ; public facility	общественное сооружение
+community-pays principle	принцип "сообщество платит"
+commuter traffic	пригородный транспорт
+compaction	прессовка
+company policy	политика компании
+company structure	структура компании
+comparative law	сравнительное право
+comparative test	сравнительный тест
+comparison	сравнение
+compensation	компенсация
+compensation for damage	компенсация ущерба
+compensatory measure	компенсационная мера
+compensatory tax	компенсационный налог
+competition	биологическая конкуренция
+competition law	закон о конкуренции
+competitive examination	конкурсный отбор
+competitiveness	конкурентоспособность
+complex formation	формирование сложного соединения (хим.)
+complexing agent	соединяющий реагент
+composite pollution	смешанное загрязнение
+composition of population	состав населения
+compost	компост
+compostable waste	компостные отходы
+composting	компостирование
+composting by producer	компостирование производителем
+compound ; chemical compound	соединение ; xимическое соединение
+compression	компрессия
+compressor	компрессор
+computer	компьютер
+concentration	концентрация
+concept of environment	экологическая концепция
+concession	концессия
+concrete	бетон
+concrete products industry	производство изделий из бетона
+condensation (process) ; condensation	конденсация (процесс) ; конденсация
+conductivity ; electrical conductivity	проводимость
+conflict	конфликт
+conflict of aims	конфликт целей
+conflict of interests	конфликт интересов
+conflicting use	конфликт по вопросу права на использование
+congress	конгресс
+conifer	хвойные
+coniferous forest	хвойный лес
+coniferous tree	хвойное дерево
+conservation	сохранение
+conservation of monuments	сохранение памятников
+conservation policy	политика сохранения природных ресурсов
+constellation	созвездие
+constitution	конституция
+constitutional law	конституционное право
+constructed language ; artificial language	искусственный язык
+construction equipment	строительное оборудование
+construction noise	строительный шум
+construction policy	политика в области строительства
+construction technology	строительная технология
+construction with recycled material	строительство из вторичных материалов
+construction work	строительная работа
+consultancy	консультативная практика
+consultation	консультация
+consumer behaviour	поведение потребителя
+consumer goods	потребительские товары
+consumer group	группа потребителей
+consumer information	информация для потребителя
+consumer product	потребительский продукт
+consumer protection	защита потребителя
+consumer waste	бытовые отходы
+consumption	потребление
+consumption pattern	структура потребления
+container	контейнер
+containment (nuclear industry) ; containment	сдерживание (ядерная энергетика) ; сдерживание
+contaminated soil	загрязненная почва
+contamination	загрязнение
+continent	континент
+continental climate	континентальный климат
+continental shelf	континентальный шельф
+continuing education	непрерывное образование
+continuous load	постоянное загрязнение
+contour farming	сельскохозяйственные работы, осуществляемые по контуру
+contract	контракт
+control measure	меры контроля
+controlled burning	огневая культивация
+controlled hunting zone	регионы разрешенной охоты
+controlling authority	контролирующие полномочия
+conurbation	большой город с пригородами
+convention	конвенция
+conventional energy	традиционный источник энергии
+cooling	охлаждение
+cooling oil	охлаждающее масло
+cooling tower	охлаждающая башня
+cooling water	охлаждающая вода
+copper	медь
+coppice	подлесок
+coppice with standards	выращивание подлеска
+coral	коралл
+coral reef	коралловый риф
+coral reef lagoon	лагуна кораллового рифа
+core meltdown	плавление стержня (атомн. энерг.) ; плавление стержня
+cork	пробка
+corridor	коридор
+corrosion	коррозия
+corrosion inhibitor	ингибитор коррозии
+cosmetic industry	производство косметики
+cosmic radiation	космическое излучение
+cosmology	kосмология
+cost	стоимость
+cost increase	увеличение расходов
+cost reduction	снижение расходов
+cost-benefit	"затраты-выгоды"
+cost-benefit analysis	анализ эффективности
+cotton	хлопок
+country ; nation ; state	государство
+country lodge	дом в сельской местности, хутор
+county	графство
+court	суд
+court of justice	суд
+cove	пещера
+covering ; roofing	покрытие
+cow	корова
+craft ; arts and crafts	ремесло
+credit	кредит
+credit assistance	кредитная помощь
+credit policy	кредитная политика
+creek	небольшой залив
+crime	преступление
+criminal law	уголовное право
+criminal law procedure	процедура уголовного права
+criminal liability	уголовная ответственность
+criminality	преступление
+crisis management	кризисное управление
+critical level	критический уровень
+critical load	критическая нагрузка
+crocodile	крокодил
+crop production	производство зерновых культур
+crop protection	защита посевов
+crop rotation	ротация сельскохозяйственных культур
+crop treatment	обработка сельскохозяйственных культур химикатами
+crossing place	дорожный переход
+crossing place for animals	места для перехода животных
+crossword	кроссворд
+crucifix	распятие
+crude oil	сырая нефть
+cruising	круизы и морские путешествия
+crustacean	ракообразные
+cryptogam	споровые
+crystallisation	кристаллизация
+crystallography	кристаллография
+cucumber	огурец
+cultivated plant	культивируемое растение
+cultivation ; tillage	культивация
+cultivation method	метод культивации
+cultivation of agricultural land	возделывание сельскохозяйственных земель
+cultivation system	система культивации
+cultural development	культурное развитие
+cultural facility	учреждение культуры
+cultural heritage	культурное наследие
+cultural indicator	"культурный" показатель
+cultural policy	политика в области культуры
+culture	культура
+curium	кюрий
+currency	валюта
+curriculum	кадровая анкета
+customs	таможенные сборы
+customs regulation	таможенный нормативный документ
+customs tariff	таможенный тариф
+cutting	рубка
+cutting ; cutting (vegetative propagation)	черенок
+cyanate	цианат
+cyanide	цианид
+cycle path	велосипедная дорожка
+cyclone	циклон
+cytology	цитология
+cytotoxicity	цитотоксичность
+dairy farm	молочная ферма
+dairy industry	молочная промышленность
+dairy product	молочный продукт
+dam	дамба
+dam draining	спуск водохранилища
+damage	ущерб
+damage assessment	оценка ущерба
+damage from military manoeuvres	ущерб от военных маневров
+damage insurance	страхование от ущерба
+damage prevention	предотвращение ущерба
+dance	танец
+dandelion	одуванчик
+danger analysis	анализ опасности
+dangerous goods	опасные товары
+dangerous goods law	законы в области использования опасных товаров
+dangerous goods regulation	правила обращения с опасными товарами
+dangerous installation	опасный объект
+dangerous materials transport	транспортировка опасных материалов
+darmstadtium	дармштадтий
+data acquisition	получение данных
+data analysis	анализ данных
+data carrier	носитель данных
+data centre	центр данных
+data exchange	обмен данными
+data on the state of the environment	данные о состоянии окружающей среды
+data processing	обработка данных
+data processing law	закон в области обработки данных и информации
+data processing system	система обработка данных
+data protection	защита данных
+data recording technique	технология записи данных
+database	база данных
+dating	датирование
+daughter	дочь
+dazzle	ослеплять
+de-inking	удаление типографской краски
+deaf	глухой
+death penalty ; capital punishment ; death sentence	смертная казн
+debit	дебетовать
+debt	долг
+debt service	обслуживание долга (фин.-экон.)
+decay product	продукт разложения
+decentralisation	децентрализация
+dechlorination	дехлорирование
+decibel	децибел
+deciduous forest ; deciduous wood	лиственный лес
+deciduous tree	лиственное дерево
+decision	решение
+decision making support	поддержка процесса принятия решений
+decision process	процесс принятия решения
+decision-support system	система обеспечения принятия решений
+declaration of public utility	объявление предприятием общественного назначения
+decomposition	разложение
+decontamination	дезактивация
+decree	декрет
